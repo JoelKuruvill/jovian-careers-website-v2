@@ -1,6 +1,6 @@
 # jovian-careers-website
 CREATED: 2024-JAN-23\
-UPDATED: 2024-JAN-26
+UPDATED: 2024-FEB-19
 
 ## Overview
 A project created following a [course by freeCodeCamp and Jovian](https://www.freecodecamp.org/news/develop-database-driven-web-apps-with-python-flask-and-mysql/), so that I may learn and work with the Flask framework. 
@@ -8,18 +8,11 @@ A project created following a [course by freeCodeCamp and Jovian](https://www.fr
 The website is delpyed and accessible here: https://jovian-careers-website-594h.onrender.com.
 
 ## Developer Development Notes
-### Part 1 
-Step 1 - completed.
-Step 2 - completed.
-Step 3 - completed.
-Step 4 - completed.
-  - Flask Template tags == React props.
-  - The 'end+for/if', indicates end of a template tag code block.
-  - I did not create custom domain at this time.
-  - From Github and Replit to Render deployment to custom domain for production, crazy.
+### Part 1 Completed | https://github.com/JoelKuruvill/jovian-careers-website
    
 ### Part 2: Database-Driven Web App.
-TBD. Left of around 2hr mark.
+- Issue with using PlanetScale, after much research I chose MongoDB as alternative choice for cloud storage solution.
+  - Resource referred to make connection successfully: https://www.mongodb.com/languages/python.
 
 ## Useful links:
 ### (mostly) Frontend related
