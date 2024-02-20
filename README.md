@@ -11,6 +11,7 @@ The website is delpyed and accessible here: https://jovian-careers-website-594h.
 ### Part 1 Completed | https://github.com/JoelKuruvill/jovian-careers-website
    
 ### Part 2: Database-Driven Web App.
+In-progress, 3hrs20mins.
 - Issue with using PlanetScale, after much research I chose MongoDB as alternative choice for cloud storage solution.
   - Resource referred to make connection successfully: https://www.mongodb.com/languages/python.
 
