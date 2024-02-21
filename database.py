@@ -26,3 +26,14 @@ def load_jobs_from_db():
     print(row)
     jobs.append(row)
   return jobs
+
+def load_job_from_db(id):
+  database = client["DB-Web-App"]
+  collection_name = database["webAppData"]
+  result = collection_name.find_one({"_id": format(id)})
+  #TY Replit AI :)
+  if not result:
+    #print("No job found with id: ", id)
+    return None
+  else:
+    return result

@@ -1,17 +1,20 @@
-# jovian-careers-website
+# jovian-careers-website-v2
 CREATED: 2024-JAN-23\
 UPDATED: 2024-FEB-19
 
 ## Overview
 A project created following a [course by freeCodeCamp and Jovian](https://www.freecodecamp.org/news/develop-database-driven-web-apps-with-python-flask-and-mysql/), so that I may learn and work with the Flask framework. 
 
-The website is delpyed and accessible here: https://jovian-careers-website-594h.onrender.com.
+The website is delpyed and accessible here: 
+- (Jovian Careers Live Deployment)[https://jovian-careers-website-594h.onrender.com]
+- (Jovian Careers V2 Live Deployment)[https://jovian-careers-website-v2-14w3.onrender.com]
 
 ## Developer Development Notes
-### Part 1 Completed | https://github.com/JoelKuruvill/jovian-careers-website
-   
+### Part 1 Completed
+- Part 1 Repository: https://github.com/JoelKuruvill/jovian-careers-website
+
 ### Part 2: Database-Driven Web App.
-In-progress, 3hrs20mins.
+In-progress, 3hrs20mins5sec.
 - Issue with using PlanetScale, after much research I chose MongoDB as alternative choice for cloud storage solution.
   - Resource referred to make connection successfully: https://www.mongodb.com/languages/python.
 
