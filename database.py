@@ -44,4 +44,6 @@ def load_job_from_db(id):
 def add_application_to_db(job_id, application):
   database = client["DB-Web-App"]
   collection_name = database["webAppApplications"]
+  application["job_id"] = job_id
   collection_name.insert_one(application)
+  
