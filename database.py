@@ -16,6 +16,7 @@ client = MongoClient(uri)
 #except Exception as e:
 #  print(e)
 
+
 def load_jobs_from_db():
   database = client["DB-Web-App"]
   collection_name = database["webAppData"]
@@ -27,13 +28,20 @@ def load_jobs_from_db():
     jobs.append(row)
   return jobs
 
+
 def load_job_from_db(id):
   database = client["DB-Web-App"]
   collection_name = database["webAppData"]
   result = collection_name.find_one({"_id": format(id)})
   #TY Replit AI :)
   if not result:
-    #print("No job found with id: ", id)
     return None
   else:
     return result
+
+
+#Working with MongoDB not MySQL..
+def add_application_to_db(job_id, application):
+  database = client["DB-Web-App"]
+  collection_name = database["webAppApplications"]
+  collection_name.insert_one(application)
