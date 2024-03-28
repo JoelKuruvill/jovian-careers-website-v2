@@ -1,6 +1,6 @@
 # jovian-careers-website-v2
-CREATED: 2024-JAN-23\
-UPDATED: 2024-MAR-05
+CREATED: 2024-JAN-26\
+UPDATED: 2024-MAR-27
 
 ## Overview
 A project created following a [course by freeCodeCamp and Jovian](https://www.freecodecamp.org/news/develop-database-driven-web-apps-with-python-flask-and-mysql/), so that I may learn and work with the Flask framework. 
@@ -10,17 +10,20 @@ The website is delpyed and accessible here:
 - **Part 1:** [Jovian Careers Live Frontend Deployment](https://jovian-careers-website-594h.onrender.com)
 
 ## Developer Development Notes
-### Part 1 Completed
+### Part 1 Completed!
 - Part 1 Repository & related notes: https://github.com/JoelKuruvill/jovian-careers-website
 
-### Part 2: In-progress
+### Part 2: Completed!
 Step 1 - completed.
 Step 2 - completed.
 Step 3 - completed.
-Step 4 - In-progress, 4hrs25mins00sec.
+Step 4 - completed.
 - Issue with using PlanetScale, after much research I chose MongoDB as alternative choice for cloud storage solution.
   - Resource I referred to make connection successfully: https://www.mongodb.com/languages/python.
 -  request.args for GET method, request.form for POST method.
+
+### Future Recomended Work
+- Create Admin and user login, functionalities.. TBD.
 
 ## Useful links:
 ### (mostly) Frontend related
@@ -40,3 +43,7 @@ Step 4 - In-progress, 4hrs25mins00sec.
 ### Backend related
 - https://matthew-brett.github.io/teaching/string_formatting.html
 - https://stackoverflow.com/questions/736590/add-new-attribute-element-to-json-object-using-javascript
+- https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+- https://www.w3schools.com/html/html_form_input_types.asp
+- https://www.mailjet.com/
+- https://www.hcaptcha.com/
