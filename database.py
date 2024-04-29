@@ -20,7 +20,7 @@ client = MongoClient(uri)
 
 def load_jobs_from_db():
   database = client["DB-Web-App"]
-  collection_name = database["webAppData"]
+  collection_name = database["webAppJobData"]
   results = collection_name.find({})
   #back on track!
   jobs = []
@@ -32,7 +32,7 @@ def load_jobs_from_db():
 
 def load_job_from_db(id):
   database = client["DB-Web-App"]
-  collection_name = database["webAppData"]
+  collection_name = database["webAppJobData"]
   result = collection_name.find_one({"_id": format(id)})
   #TY Replit AI :)
   if not result:
@@ -44,7 +44,7 @@ def load_job_from_db(id):
 #Working with MongoDB not MySQL..
 def add_application_to_db(job_id, application):
   database = client["DB-Web-App"]
-  collection_name = database["webAppApplications"]
+  collection_name = database["webAppJobApplications"]
   application["job_id"] = job_id
   collection_name.insert_one(application)
   send_email(id, application)

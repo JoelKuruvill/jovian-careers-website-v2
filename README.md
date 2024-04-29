@@ -1,6 +1,6 @@
 # jovian-careers-website-v2
 CREATED: 2024-JAN-26\
-UPDATED: 2024-MAR-27
+UPDATED: 2024-APR-30
 
 ## Overview
 A project created following a [course by freeCodeCamp and Jovian](https://www.freecodecamp.org/news/develop-database-driven-web-apps-with-python-flask-and-mysql/), so that I may learn and work with the Flask framework. 
