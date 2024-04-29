@@ -3,6 +3,7 @@
 
 #Code used here to connect to MongoDB is provided from MongoDB for Python version 3.11
 from pymongo.mongo_client import MongoClient
+from mail import send_email
 import os
 
 uri = os.environ['DB_CONNECTION_STRING']
@@ -46,4 +47,5 @@ def add_application_to_db(job_id, application):
   collection_name = database["webAppApplications"]
   application["job_id"] = job_id
   collection_name.insert_one(application)
+  send_email(id, application)
   
